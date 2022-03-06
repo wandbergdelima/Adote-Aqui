@@ -1,0 +1,124 @@
+/* Google Font CDN Link */
+@import url("https://fonts.google.com/specimen/Poppins");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.menu_principal {
+    height: 100vh;
+    width: 210px;
+    background-color: #11101d;
+    padding: 6px 14px;
+}
+
+.menu_principal .logo_conteiner .logo {
+    color: #ffffff;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+.logo_conteiner .logo img {
+    margin-right: 15px;
+}
+
+h4 {
+    display: inline-block;
+    font-size: 20px;
+}
+
+h4:hover {
+    font-size: 25px;
+    transition: all 0.4s;
+}
+.logo_conteiner .logo .logo_nome {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.menu_principal #btn {
+    position: absolute;
+    color: #fff;
+    left: 90%;
+    top: -40px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-50%);
+}
+
+.menu_principal ul {
+    margin-top: 20px;
+}
+
+.menu_principal ul li {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0 5px;
+    list-style: none;
+    line-height: 50px;
+}
+.menu_principal ul li input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background: #1d1b31;
+    padding-left: 50px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.menu_principal ul li .bx-search-alt-2 {
+    position: relative;
+    z-index: 99;
+    color: #fff;
+    font-size: 22px;
+}
+.menu_principal ul li a {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    border-radius: 12px;
+}
+
+.menu_principal ul li a:hover {
+    color: #11101d;
+    background: #fff;
+}
+
+.menu_principal ul li i {
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.fundo {
+    position: absolute;
+    width: 80%;
+    height: 100vh;
+    right: 0;
+}
